@@ -156,7 +156,13 @@ ORDER BY
 
 Finalmente, após **(1)** carregar os dados brutos da **NovaDrive Motors** do **PostGreSQL** para a camada intermediária do **DWH** no **Snowflake**, **(2)** realizar todas transformações e tratamentos com **DBT** que retiram tais dados brutos da camada intermediária e os colocam prontos e adequados para a análise de negócios avançada na camada analítica do **DWH**, usei o **(3)** **Looker Studio** como ferramenta de **BI** para construir um **dashboard** de **BI (Business Intelligence)** que forneça métricas, **KPIs** (indicadores) e gráficos que possam transmitir informações que possam ajudar na tomada de decisão empresarial embasada em dados aos gestores e executivos da **NovaDrive Motors**:
 
+https://github.com/jv-mendes07/elt_data_warehouse_snowflake/assets/93790271/42c1003a-00d5-440e-8902-4e0b0ad2e6c7
 
+No **dashboard** de **BI** das vendas da **NovaDrive Motors** é possível filtrar às informações de vendas por estado, concessionária, e também possível visualizar em um **gráfico de mapa** ou **gráfico de barra** quais são os estados brasileiros que mais geram faturamento e vendas para a **NovaDrive Motors**.
+
+## Considerações finais:
+
+Por fim, uma das possíveis melhorias para tal projeto seria **(1)** usar uma ferramenta de **ETL** apropriada para realizar a extração e a carga incremental dos dados brutos do **PostGreSQL** para a camada intermediária do **Data Warehouse** no **Snowflake**, ao invés de usar o **Airflow**, até porque o **Airflow** é uma ferramenta de orquestração e não de ingestão de dados, neste caso, seria viável usar o **Data Factory** para realizar tal carga incremental, e usar somente o **Airflow** para chamar tais **Pipelines incrementais** no **Data Factory** para extrair tais dados brutos da fonte (**PostGreSQL**) e ingeri-los no destino (**Snowflake**).
 
 
 
