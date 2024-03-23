@@ -6,11 +6,10 @@ Em tal projeto, modelo um **Data Warehouse** no **Snowflake** para às análises
 
 Basicamente, na primeira fase do projeto, tive que extrair os dados brutos do banco de dados transacional **PostGreSQL** de tais tabelas **vendas**, **vendedores**, **veiculos**, **estados**, **cidades**, **clientes** e **concessionarias**:
 
-![](img/tables_in_postgresql.png)
+https://github.com/jv-mendes07/elt_data_warehouse_snowflake/assets/93790271/7079ba1e-871d-4be7-8ecb-0bfc1ab9df13
 
 Para realizar tal extração de dados brutos do banco de dados **PostGreSQL** do sistema transacional (**OLTP**) da concessionária, estruturei uma **DAG** no **Airflow** que extrai e ingere incrementalmente os dados brutos do **PostGreSQL** para a camada intermediária (**Staging**) do **Data Warehouse** no **Snowflake**:
 
-![](img/dag_ingestion_post_gre_sql_to_snowflake.png)
 
 
 
