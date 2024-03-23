@@ -158,7 +158,7 @@ Finalmente, após **(1)** carregar os dados brutos da **NovaDrive Motors** do **
 
 https://github.com/jv-mendes07/elt_data_warehouse_snowflake/assets/93790271/42c1003a-00d5-440e-8902-4e0b0ad2e6c7
 
-No **dashboard** de **BI** das vendas da **NovaDrive Motors** é possível filtrar às informações de vendas por estado, concessionária, e também possível visualizar em um **gráfico de mapa** ou **gráfico de barra** quais são os estados brasileiros que mais geram faturamento e vendas para a **NovaDrive Motors**.
+No **dashboard** de **BI** das vendas da **NovaDrive Motors** é possível filtrar às informações de vendas por estado, concessionária, e também é possível visualizar em um **gráfico de mapa** ou **gráfico de barra** quais são os estados brasileiros que mais geram faturamento e vendas para a **NovaDrive Motors**.
 
 ## Considerações finais:
 
