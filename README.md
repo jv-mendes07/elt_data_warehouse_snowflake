@@ -1,1 +1,1 @@
-# elt_data_warehouse_snowflake
+# Projeto de Data Warehouse com Snowflake, DBT, Airflow, PostGreSQL & Looker Studio
